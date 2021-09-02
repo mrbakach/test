@@ -1,4 +1,4 @@
-FROM docker.io/golang:1.17.0-alpine3.13 AS build
+FROM docker.io/golang:1.14.2-alpine AS build
 COPY main.go .
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o app .
 

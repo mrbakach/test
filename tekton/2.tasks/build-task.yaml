@@ -27,7 +27,7 @@ spec:
         type: image
   steps:
     - name: build-image
-      image: quay.io/buildah/stable:v1.22.0
+      image: quay.io/buildah/stable
       workingDir: "/workspace/source/$(inputs.params.contextDir)"
       command:
         - "buildah"
@@ -46,7 +46,7 @@ spec:
         - name: varlibc
           mountPath: /var/lib/containers
     - name: push-image
-      image: quay.io/buildah/stable:v1.22.0
+      image: quay.io/buildah/stable
       workingDir: "/workspace/source/$(inputs.params.contextDir)"
       command:
         - "buildah"
