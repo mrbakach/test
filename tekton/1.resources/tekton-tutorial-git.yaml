@@ -6,6 +6,6 @@ spec:
   type: git
   params:
     - name: url
-      value: https://github.com/harbur/tekton-tutorial
+      value: https://github.com/mrbakach/test
     - name: revision
-      value: main
+      value: master
