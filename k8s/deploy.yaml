@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
         - name: tekton-tutorial
-          image: example.com/mrbakach/test
+          image: example.com/harbur/tekton-tutorial
