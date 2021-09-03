@@ -34,8 +34,8 @@ spec:
         - build-app
       params:
         - name: namespace
-          value: tekton-tutorial
+          value: $(params.namespace)
       resources:
         inputs:
-          - name: builtImage2
-            resource: appImage
+          - name: source
+            resource: appSource
