@@ -28,7 +28,7 @@ spec:
           - name: contextDir
             value: .
           - name: namespace
-            value: $(tt.params.gitrepositoryname)
+            value: tekton-tutorial
         resources:
           - name: appSource
             resourceSpec:
