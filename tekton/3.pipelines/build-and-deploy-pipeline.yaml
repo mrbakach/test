@@ -37,5 +37,5 @@ spec:
           value: tekton-tutorial
       resources:
         inputs:
-          - name: builtImage
+          - name: builtImage2
             resource: appImage
